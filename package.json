@@ -1,0 +1,28 @@
+{
+  "name": "n-ahj-hw.-7_http_helpdesk_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-naraikin/n-ahj-hw.-7_http_HelpDesk_backend.git"
+  },
+  "author": "a-naraikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-naraikin/n-ahj-hw.-7_http_HelpDesk_backend/issues"
+  },
+  "homepage": "https://github.com/a-naraikin/n-ahj-hw.-7_http_HelpDesk_backend#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0"
+  }
+}
