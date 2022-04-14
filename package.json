@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js"
   },
@@ -22,7 +23,9 @@
   "homepage": "https://github.com/a-naraikin/n-ahj-hw.-7_http_HelpDesk_backend#readme",
   "dependencies": {
     "forever": "^3.0.4",
-    "koa": "^2.13.4",
-    "koa-body": "^4.2.0"
+    "http": "0.0.1-security",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0"
   }
 }
